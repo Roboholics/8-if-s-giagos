@@ -6,8 +6,8 @@ Gyroscope gyro(13); //Βάλτε την κατάλληλη τιμή σύμφων
 Car folkracer;
 
 SR04 front;
-const int TRIGGER_PIN = 3; //Βάλτε την κατάλληλη τιμή για το pin που είναι συνδεδεμένο στο trigger
-const int ECHO_PIN = 2; //Βάλτε την κατάλληλη τιμή για το pin που είναι συνδεδεμένο στο echo
+const int TRIGGER_PIN = A3; //Βάλτε την κατάλληλη τιμή για το pin που είναι συνδεδεμένο στο trigger
+const int ECHO_PIN = A2; //Βάλτε την κατάλληλη τιμή για το pin που είναι συνδεδεμένο στο echo
 
 void setup() {
   front.attach(TRIGGER_PIN, ECHO_PIN); //αρχικοποιεί τον υπέρηχο
